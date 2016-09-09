@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   root 'smart_home_api#index'
 
-  get 'smart_home_api/index'
+  get  '/index' => 'smart_home_api#index'
 
-  get 'smart_home_api/expand_graph'
+  post '/graph'=> 'smart_home_api#expand_graph'
 
-  get 'smart_home_api/expose_graph'
+  get  '/graph'=> 'smart_home_api#expose_graph'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

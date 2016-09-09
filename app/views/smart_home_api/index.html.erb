@@ -1,2 +1,8 @@
 <h1>SmartHomeApi#index</h1>
 <p>Find me in app/views/smart_home_api/index.html.erb</p>
+
+<%= form_tag("/graph", method: "post") do %>
+  <%= label_tag(:uri, "Add to Graph:") %>
+  <%= text_field_tag(:uri) %>
+  <%= submit_tag("Add to Graph") %>
+<% end %>
