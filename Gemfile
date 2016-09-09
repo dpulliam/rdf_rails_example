@@ -1,8 +1,12 @@
 source 'https://rubygems.org'
 
+# Add semantic web technologies for graphs and ontologies
 gem 'rdf'
-
 gem 'linkeddata'
+
+# Give us some basic styling
+gem 'bootstrap-sass', '~> 3.2.0'
+gem 'autoprefixer-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
