@@ -23,11 +23,11 @@ bundle exec rails server
 ```
 ## Important Endpoints
 ```
-/robots.txt         # Locations for important endpoints
+/robots.txt               # Locations for important endpoints
 /ontology/smart_home.rdf  # starting point for ontology
-/             # Graph consumption
-/graph            # Expose graph in html
-/graph.rdf          # Expose graph in rdf ntriples
+/                         # Graph consumption
+/graph                    # Expose graph in html
+/graph.rdf                # Expose graph in rdf ntriples
 ```
 
 ## Gems
