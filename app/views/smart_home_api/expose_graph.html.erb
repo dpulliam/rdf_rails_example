@@ -1,0 +1,25 @@
+<h1>SmartHomeApi#expose_graph</h1>
+<p>Find me in app/views/smart_home_api/expose_graph.html.erb</p>
+
+<h1>Total Triples: <%= @repository.size %></h1>
+
+<div class="container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th> Subject </th>
+        <th> Predicate </th>
+        <th> Object </th>
+      </tr>
+    </thead>
+    <tbody>
+      <%= @repository.each_statement do |s| %>
+        <tr>
+          <td><%= s.subject %>></td>
+          <td><%= s.predicate %></td>
+          <td><%= s.object %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
