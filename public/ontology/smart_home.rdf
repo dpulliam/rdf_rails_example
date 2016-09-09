@@ -1,0 +1,9 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:sh = "localhost:3000/ontology/smart_home#">
+
+<sh:Ontology rdf:resource="localhost:3000/ontology"/>
+<sh:People rdf:resource="localhost:3000/ontology/people/people.rdf"/>
+<sh:Appliances rdf:resource="localhost:3000/ontology/appliances"/>
+<sh:Rooms rdf:resource="localhost:3000/ontology/rooms"/>
